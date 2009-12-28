@@ -1,0 +1,9 @@
+---
+layout: post
+---
+
+Testing pictourist embed:
+
+<script type="text/javascript" src="http://www.pictourist.com/tours/17023/widget"></script>
+
+After the embed.
