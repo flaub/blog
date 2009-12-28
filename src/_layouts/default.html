@@ -19,18 +19,18 @@
 	<link rel="stylesheet" href="/css/screen.css" type="text/css" />
 	
 	<script type="text/javascript">	
-		//var isLocal = !!( /localhost|127\.0\.0/i.test(window.location.href) );
-		//if(!isLocal) {
-		//	var _gaq = _gaq || [];
-		//	_gaq.push(['_setAccount', 'UA-3313431-6']);
-		//	_gaq.push(['_trackPageview']);
-		//	
-		//	(function() {
-		//		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		//		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
-		//	})();
-		//}
+		var isLocal = !!( /localhost|127\.0\.0/i.test(window.location.href) );
+		if(!isLocal) {
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-3313431-7']);
+			_gaq.push(['_trackPageview']);
+			
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+			})();
+		}
 	</script>
 </head>
 
