@@ -16,7 +16,7 @@ Primitives:
 !/img/sigma.png!
 
 * Forward compute (compute hidden nodes)
-!/img/foward.png!
+!/img/forward.png!
 
 where:
   @P = probabilty@
