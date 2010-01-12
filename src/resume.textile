@@ -1,0 +1,57 @@
+---
+layout: resume
+title: Frank Adam Laub - Resume
+---
+
+h2. Experience
+
+*Software Consultant*                            %{float: right;}2008 - present%
+_Various Clients_ - Los Angeles, CA
+
+p<>. Development of ASP.NET applications for large and small clients from design thru implementation to deployment. Agile and Scrum techniques used for project managment. Domain Driven Design, Test Driven Development (TDD), and guidance from S#arp Architecture for development.
+
+*Network Software R&D*                              %{float: right;}2003 - 2007%
+_CoCo Communications Corp._ - Seattle, WA   %{float: right;}Computer Networking%
+
+p<>. One of the lead designers of an ad-hoc mesh networking protocol. Creation of an accurate network simulator for research, functional testing, and demos. Co-authorship of a patent for a clustering sub-protocol which allows the mesh to scale. Development of a powerful cross-platform build system. 
+
+*Sr. Software Engineer*                             %{float: right;}2002 - 2003%
+_Cenzic, Inc._ - Seattle, WA        %{float: right;}Computer & Network Security%
+
+p<>. Development of Hailstorm Web, a platform for creating tests using a technique called fault injection in order to discover vulnerabilities in online applications with a focus on the web. Built hooks and reverse engineered interfaces of Internet Explorer to monitor and control every aspect of its communications with external network resources.
+
+*Sr. Software Engineer*                             %{float: right;}2001 - 2002%
+_Virtuoso_ - Seattle, WA              %{float: right;}Leisure, Travel & Tourism%
+
+p<>. Development of an ASP.NET framework for a web application used by luxury travel agents, vendors, and consumers.
+
+*Software Architect*                                %{float: right;}1999 - 2000%
+_World2One.com_ - Atlanta, GA                   %{float: right;}Internet DotCom%
+
+p<>. First employee of a startup. Initial network infrastructure designed and implemented. Architecture, design, and implementation of a highly scalable web-based service (before web services). 
+
+*Software Engineer*                                        %{float: right;}1998%
+_RTS Software_ - Jerusalem, Israel            %{float: right;}Computer Software%
+
+p<>. Optimization of a large Java client for a large call management system. Integration using CORBA, EDI, FTP, MSMQ, IVR, and a wide variety of other transport mediums for external interfacing.
+
+*Software Consultant*                               %{float: right;}1997 - 1999%
+_Data General_ - Atlanta, GA %{float: right;}Information Technology and Services%
+
+p<>. Requirements, analysis, architecture, design, and implementation of in-house tools and applications for world-wide field and call center support.
+
+*Software Engineer Intern*                                 %{float: right;}1996%
+_Intel Corp._ - Hillsboro, OR                 %{float: right;}Computer Hardware%
+
+p<>. Design and development of a Direct X testing platform for use with Intel's Motherboard team to evaluate onboard audio and video components.
+
+h2. Education
+
+*Computer Software Engineering*                     %{float: right;}1995 - 1999%
+_Oregon Institute of Technology_              %{float: right;}Klamath Falls, OR%
+
+h2. Skills
+
+C, C++, C#, ASP.NET, Java, Python, Javascript, HTML/CSS, x86 and ARM Assembly, Reverse Engineering
+
+p<>. Deep understanding and practical design of networking protocols. Comfortable and familiar with a wide variety of environments (Windows, Linux, Mac OS X, BSD)
