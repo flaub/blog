@@ -1,0 +1,15 @@
+body {
+	line-height:1.0;
+	font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+	color:#000;
+	background:none;
+	font-size:10pt;
+}
+
+a:link:after, a:visited:after {
+	content: ''
+}
+
+.page-break {
+	page-break-after: always;
+}

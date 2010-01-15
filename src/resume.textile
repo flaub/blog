@@ -3,47 +3,82 @@ layout: resume
 title: Frank Adam Laub - Resume
 ---
 
+<center>
+<script type="text/javascript">
+	var dot = '.'; var at = '@';
+	var email = 'frank' + dot + 'laub' + at + 'gmail' + dot + 'com';
+	document.write("<a href='mailto:" + email + "'>");
+	document.write(email);
+	document.write("</a>");
+</script>
+</center>
+
+h2. Projects
+
+*DotWeb* %{float: right;}"http://www.dotweb-toolkit.com":http://www.dotweb-toolkit.com%
+Port of GWT to .NET
+
+*PicTourist* %{float: right;}"http://www.pictourist.com":http://www.pictourist.com%
+Photo sharing site written in python & javascript using GAE.
+
+*OpenSSL.NET* %{float: right;}"http://openssl-net.sourceforge.net":http://openssl-net.sourceforge.net%
+Wrapper for accessing openssl from .NET with _over 5,000 downloads_
+
+*BOOST_ENUM* %{float: right;}"http://lists.boost.org/Archives/boost/2005/12/97685.php":http://lists.boost.org/Archives/boost/2005/12/97685.php%
+Proposal for a type-safe enum for C++ using boost's preprocessor and template magic
+
+*Perfecto*
+Developer's text editor with syntax highlighting for Mac OS X written in Objective-C using Cocoa
+
 h2. Experience
 
-*Software Consultant*                            %{float: right;}2008 - present%
+*Software Consultant*                            %{float: right;}2008 - 2009%
 _Various Clients_ - Los Angeles, CA
 
-p<>. Development of ASP.NET applications for large and small clients from design thru implementation to deployment. Agile and Scrum techniques used for project managment. Domain Driven Design, Test Driven Development (TDD), and guidance from S#arp Architecture for development.
+p<>. Development of ASP.NET applications for large and small clients from design thru implementation to deployment. Agile and Scrum techniques used for project managment. Domain Driven Design, Test Driven Development (TDD), and guidance from S#arp Architecture. Technologies used include NHibernate, ExtJS, NUnit, CruiseControl.NET.
+
 
 *Network Software R&D*                              %{float: right;}2003 - 2007%
 _CoCo Communications Corp._ - Seattle, WA   %{float: right;}Computer Networking%
 
-p<>. One of the lead designers of an ad-hoc mesh networking protocol. Creation of an accurate network simulator for research, functional testing, and demos. Co-authorship of a patent for a clustering sub-protocol which allows the mesh to scale. Development of a powerful cross-platform build system. 
+p<>. A lead designer of an ad-hoc mesh networking protocol written in C++. Creation of an accurate network simulator for research, functional testing, and demos. Co-authorship of a patent for a clustering sub-protocol which allows the mesh to scale. Development of a powerful cross-platform build system written in python using SCons. Designed and wrote a driver in C++ for WinNT, WinCE, and Linux. Embedded development on Windows Mobile devices.
 
 *Sr. Software Engineer*                             %{float: right;}2002 - 2003%
 _Cenzic, Inc._ - Seattle, WA        %{float: right;}Computer & Network Security%
 
-p<>. Development of Hailstorm Web, a platform for creating tests using a technique called fault injection in order to discover vulnerabilities in online applications with a focus on the web. Built hooks and reverse engineered interfaces of Internet Explorer to monitor and control every aspect of its communications with external network resources.
+p<>. Development of Hailstorm Web, a platform for creating tests using a technique called fault injection in order to discover vulnerabilities in online applications with a focus on the web. Built hooks and reverse engineered interfaces of Internet Explorer to monitor and control every aspect of its communications with external network resources. Partially written in C++ and C# with heavy COM integration.
 
 *Sr. Software Engineer*                             %{float: right;}2001 - 2002%
 _Virtuoso_ - Seattle, WA              %{float: right;}Leisure, Travel & Tourism%
 
-p<>. Development of an ASP.NET framework for a web application used by luxury travel agents, vendors, and consumers.
+p<>. Development of an ASP.NET framework for a web application used by luxury travel agents, vendors, and consumers. First exposure to C# and the .NET platform.
 
 *Software Architect*                                %{float: right;}1999 - 2000%
 _World2One.com_ - Atlanta, GA                   %{float: right;}Internet DotCom%
 
-p<>. First employee of a startup. Initial network infrastructure designed and implemented. Architecture, design, and implementation of a highly scalable web-based service (before web services). 
+p<>. First employee of a startup. Initial network infrastructure designed and implemented. Architecture, design, and implementation of a highly scalable web-based service (before web services) written in C++ using IIS.
+
+(page-break)
 
 *Software Engineer*                                        %{float: right;}1998%
 _RTS Software_ - Jerusalem, Israel            %{float: right;}Computer Software%
 
-p<>. Optimization of a large Java client for a large call management system. Integration using CORBA, EDI, FTP, MSMQ, IVR, and a wide variety of other transport mediums for external interfacing.
+p<>. Optimization for the client-side of a large call management system. Interfaces written for EDI, FTP, MSMQ, IVR, and a wide variety of other transport mediums. Integration of Java and Smalltalk using CORBA. Lived in Israel for 4 months.
 
 *Software Consultant*                               %{float: right;}1997 - 1999%
 _Data General_ - Atlanta, GA %{float: right;}Information Technology and Services%
 
-p<>. Requirements, analysis, architecture, design, and implementation of in-house tools and applications for world-wide field and call center support.
+p<>. Requirements, analysis, architecture, design, and implementation of in-house tools and applications for world-wide field and call center support. Used COM, MAPI, and MSMQ. Written in C++.
+
+*Instructor/Trainer*                                       %{float: right;}1997%
+_OIT & various fortune 500 companies_                 %{float: right;}Education%
+
+p<>. Developed curriculm and instructed classes on topics involving (not all together): Java, multi-threading, and advanced 3D-graphics.
 
 *Software Engineer Intern*                                 %{float: right;}1996%
 _Intel Corp._ - Hillsboro, OR                 %{float: right;}Computer Hardware%
 
-p<>. Design and development of a Direct X testing platform for use with Intel's Motherboard team to evaluate onboard audio and video components.
+p<>. Design and development of a Direct X testing platform for use with Intel's Motherboard team to evaluate onboard audio and video components. Written in C++ with lots of COM usage.
 
 h2. Education
 
@@ -52,6 +87,8 @@ _Oregon Institute of Technology_              %{float: right;}Klamath Falls, OR%
 
 h2. Skills
 
-C, C++, C#, ASP.NET, Java, Python, Javascript, HTML/CSS, x86 and ARM Assembly, Reverse Engineering
+p<>. C/C++, C#, ASP.NET, GAE, Java, Python, Javascript, HTML/CSS, x86 and ARM Assembly, Reverse Engineering, Driver Development for Windows and Linux.
 
-p<>. Deep understanding and practical design of networking protocols. Comfortable and familiar with a wide variety of environments (Windows, Linux, Mac OS X, BSD)
+p<>. Deep understanding and real-world design of networking protocols on a variety of platforms and devices. Comfortable and familiar with a wide variety of environments (Mac OS X, Windows, Linux, BSD)
+
+[boost_enum]http://git-scm.com
