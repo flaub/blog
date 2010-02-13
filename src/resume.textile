@@ -35,7 +35,7 @@ h2. Experience
 *Software Consultant*                            %{float: right;}2008 - 2009%
 _Various Clients_ - Los Angeles, CA
 
-p<>. Development of ASP.NET applications for large and small clients from design thru implementation to deployment. Agile and Scrum techniques used for project managment. Domain Driven Design, Test Driven Development (TDD), and guidance from S#arp Architecture. Technologies used include NHibernate, ExtJS, NUnit, CruiseControl.NET.
+p<>. Development of ASP.NET applications for large and small clients from design thru implementation to deployment. Agile and Scrum techniques used for project management. Domain Driven Design, Test Driven Development (TDD), and guidance from S#arp Architecture. Technologies used include NHibernate, ExtJS, NUnit, CruiseControl.NET.
 
 
 *Network Software R&D*                              %{float: right;}2003 - 2007%
