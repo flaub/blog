@@ -7,3 +7,10 @@ I'm posting an alpha release of Sensei to get some feedback from anyone who want
 
 You can download "Sensei here":/files/Sensei-alpha3.7z. Right now I've only got a package for Mac OS X. When I get time I'll work on getting a package for Windows and Linux created and posted.
 
+h4. Totally unrelated
+
+Here's some clips of my dog and I having fun at the lake:
+
+* "Roxy & big stick 1":/files/IMG_1526.m4v
+* "Roxy & big stick 2":/files/IMG_1526-1.m4v
+* "Roxy & big stick 3":/files/IMG_1549.m4v
