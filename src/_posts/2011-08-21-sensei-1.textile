@@ -1,0 +1,9 @@
+---
+layout: post
+title: Introducing Sensei
+---
+
+I'm posting an alpha release of Sensei to get some feedback from anyone who wants to try it out.
+
+You can download "Sensei here":/files/Sensei-alpha3.7z. Right now I've only got a package for Mac OS X. When I get time I'll work on getting a package for Windows and Linux created and posted.
+
