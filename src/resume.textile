@@ -16,22 +16,22 @@ title: Frank Adam Laub - Resume
 h2. Projects
 
 *BOOST_ENUM* %{float: right;}"http://lists.boost.org/Archives/boost/2005/12/97685.php":http://lists.boost.org/Archives/boost/2005/12/97685.php%
-Proposal for a type-safe enum for C++ using "boost's":http://www.boost.org/ preprocessor and template magic
+Proposal for a type-safe enum in C++ using "boost's":http://www.boost.org/ preprocessor and template magic.
 
 *OpenSSL.NET* %{float: right;}"http://openssl-net.sourceforge.net":http://openssl-net.sourceforge.net%
-Wrapper for accessing "openssl":http://www.openssl.org/ from .NET with _over 5,000 downloads_
+Wrapper for accessing "openssl":http://www.openssl.org/ from .NET with _over 20,000 downloads_.
 
-*PicTourist* %{float: right;}"http://www.pictourist.com":http://www.pictourist.com%
-Photo sharing site written in python & javascript hosted on "GAE":http://code.google.com/appengine/.
+*PicTourist* %{float: right;}"http://pictourist.appspot.com/":http://pictourist.appspot.com/%
+Photo sharing webapp written in python & javascript hosted on "GAE":http://code.google.com/appengine/.
 
-*Sensei*
+*Sensei* %{float: right;}"http://www.anomali.es/2011/08/21/sensei-1.html":http://www.anomali.es/2011/08/21/sensei-1.html%
 Cross-platform IDE that integrates "Clang's":http://clang.llvm.org/ code completion features along with remote file editing capabilities.
 
-*DotWeb*
-Port of "GWT":http://code.google.com/webtoolkit/ to ".NET":http://www.microsoft.com/net/
+*DotWeb* %{float: right;}"https://github.com/flaub/DotWeb":https://github.com/flaub/DotWeb%
+Port of "GWT":http://code.google.com/webtoolkit/ to ".NET":http://www.microsoft.com/net/.
 
-*Perfecto*
-Developer's text editor with syntax highlighting for Mac OS X written in Objective-C using Cocoa
+*Perfecto* %{float: right;}"https://github.com/flaub/Perfecto":https://github.com/flaub/Perfecto%
+Developer's text editor with syntax highlighting for Mac OS X written in Objective-C using Cocoa.
 
 h2. Experience
 
@@ -96,6 +96,4 @@ h2. Skills
 
 p<>. C/C++, C#, ASP.NET, GAE, Java, Python, Javascript, HTML/CSS, x86 and ARM Assembly, Reverse Engineering, Driver Development for Windows and Linux.
 
-p<>. Deep understanding and real-world design of networking protocols on a variety of platforms and devices. Comfortable and familiar with a wide variety of environments (Mac OS X, Windows, Linux, BSD)
-
-[boost_enum]http://git-scm.com
+p<>. Deep understanding and real-world design of networking protocols on a variety of platforms and devices. Comfortable and familiar with a wide variety of environments (Mac OS X, Linux, Windows)
