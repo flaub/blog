@@ -65,8 +65,6 @@ _World2One.com_ - Atlanta, GA                   %{float: right;}Internet DotCom%
 
 p<>. First employee of a startup. Initial network infrastructure designed and implemented. Architecture, design, and implementation of a highly scalable web-based service (before web services) written in C++ using IIS.
 
-<div class='page-break'></div>
-
 *Software Engineer*                                        %{float: right;}1998%
 _RTS Software_ - Jerusalem, Israel            %{float: right;}Computer Software%
 
