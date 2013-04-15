@@ -1,5 +1,0 @@
----
-layout: post
-title: pygdb
----
-Here's a simple python wrapper that allows developers to control gdb. This is useful for testing or security assessments or who knows, use your imagination. Find it over on "Google Code":http://code.google.com/p/pygdb/. I've just finished the first beta release. I'd be interested to see where this thing gets used...

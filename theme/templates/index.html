@@ -1,0 +1,20 @@
+{% extends "default.html" %}
+{% block content_title %}{% endblock %}
+
+{% block inner_content %}
+{% for article in articles_page.object_list %}
+
+	{# First item #}
+	{% if loop.first and not articles_page.has_previous() %}
+		<article>
+			<div id="date">{{ article.locale_date }}</div>
+			<h1 class="entry-title">
+				<a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+			</h1>
+			{{ article.content }}
+			{% include 'inc/comments.html' %}
+		</article>
+	{% endif %}
+{% endfor %}
+
+{% endblock %}

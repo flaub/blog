@@ -1,0 +1,94 @@
+@import url("pygment.css");
+
+body {
+    background: #F5F4EF;
+	color: #333;
+}
+
+a {
+	color: #76a0d0;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#banner {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#banner h1 {
+	margin: 0;
+}
+
+#footer {
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 20px;
+	height: 30px;
+}
+
+.sidebar ul, #sidebar li {
+	margin: 0 0 1.5em 0;
+	padding: 0 0 0 0;
+	list-style: none;
+}
+
+.sidebar li {
+	padding: 2px 4px;
+}
+
+.sidebar li a {
+	display: block;
+}
+
+.sidebar h4 {
+	font-weight: bold;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto; 
+
+	background: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#leftbar {
+	float: left;
+	width: 190px;
+	margin-right: 10px;
+}
+
+#content {
+	margin-bottom: 2em;
+	overflow: hidden;
+	width: 550px;
+	margin-right: 10px;
+	float: left;
+}
+
+#rightbar {
+	float: right;
+	width: 190px;
+	margin-right: 0;
+}
+
+#content pre {
+	padding: 0 1.5em;
+	border: 1px solid #222;
+}
+
+#content pre, #content p code, #content li code {
+	background: #eee;
+	font-family: 'Bitstream Vera Sans Mono', Monaco, 'Courier New', monospace !important;
+	font-style: normal !important;
+	font-variant: normal !important;
+	font-weight: normal !important;
+}
+
+#content a code {
+	background: transparent;
+}

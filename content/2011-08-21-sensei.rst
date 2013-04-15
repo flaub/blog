@@ -1,0 +1,20 @@
+Introducing Sensei
+##################
+
+I'm posting an alpha release of Sensei to get some feedback from anyone who
+wants to try it out.
+
+You can download `Sensei here`_. Right now I've only got a package for Mac OS X.
+When I get time I'll work on getting a package for Windows and Linux created and
+posted.
+
+Totally unrelated
+-----------------
+
+Here's some clips of my dog and I having fun at the lake:
+
+ - `Roxy & big stick 1 <|filename|/files/IMG_1526.m4v>`_
+ - `Roxy & big stick 2 <|filename|/files/IMG_1526-1.m4v>`_
+ - `Roxy & big stick 3 <|filename|/files/IMG_1549.m4v>`_
+
+.. _Sensei here: |filename|/files/Sensei-alpha3.7z

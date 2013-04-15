@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}        
+
+<div id='container' class='container'>
+	<div id='leftbar' class='sidebar'>
+		{% include 'inc/leftbar.html' %}
+	</div>
+	
+	<div id='content'>
+		{% block inner_content %}
+		{% endblock %}
+	</div>
+	
+	<div id='rightbar' class='sidebar'>
+		{% include 'inc/rightbar.html' %}
+	</div>
+</div>
+
+{% endblock content %}
