@@ -43,6 +43,6 @@ publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 s3: publish
-	boto-rsync --endpoint s3-us-west-2.amazonaws.com $(OUTPUTDIR)/ s3://www.anomali.es
+	boto-rsync --delete --endpoint s3-us-west-2.amazonaws.com $(OUTPUTDIR)/ s3://www.anomali.es
 
 .PHONY: html help clean regenerate serve devserver publish s3
