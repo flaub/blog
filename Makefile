@@ -24,25 +24,34 @@ help:
 html: clean $(OUTPUTDIR)/index.html
 	@echo 'Done'
 
-$(OUTPUTDIR)/%.html:
+$(OUTPUTDIR):
+	mkdir -p $(OUTPUTDIR)
+
+$(OUTPUTDIR)/%.html: $(OUTPUTDIR)
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
-clean:
+clean: $(OUTPUTDIR)
 	find $(OUTPUTDIR) -mindepth 1 -delete
 
 regenerate: clean
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
-serve:
+serve: html
 	cd $(OUTPUTDIR) && python -m SimpleHTTPServer
 
 devserver:
 	$(BASEDIR)/develop_server.sh restart
 
-publish:
+publish: html
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 s3: publish
 	boto-rsync --delete --endpoint s3-us-west-2.amazonaws.com $(OUTPUTDIR)/ s3://www.anomali.es
 
-.PHONY: html help clean regenerate serve devserver publish s3
+venv:
+	virtualenv .venv
+
+requirements:
+	pip install -r requirements.pip
+
+.PHONY: html help clean regenerate serve devserver publish s3 venv requirements

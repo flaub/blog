@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = u'Frank Laub'
-SITENAME = u'Frank Adam Laub'
-SITEURL = 'http://www.anonmali.es'
+SITENAME = u'Frank Laub'
+SITEURL = 'http://www.anomali.es'
 
 TIMEZONE = 'US/Pacific'
 
