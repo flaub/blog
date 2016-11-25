@@ -3,7 +3,7 @@
 
 AUTHOR = u'Frank Laub'
 SITENAME = u'Frank Laub'
-SITEURL = 'http://www.anomali.es'
+SITEURL = 'http://www.franklaub.net'
 
 TIMEZONE = 'US/Pacific'
 

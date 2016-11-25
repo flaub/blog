@@ -16,7 +16,7 @@ slug: resume
 ## Skills
 
 C, C++, Python, Go, Javascript, HTML/CSS, x86 and ARM
-Assembly, Reverse Engineering, Driver Development
+Assembly, Reverse Engineering
 
 ## Experience 
 
@@ -25,15 +25,25 @@ Assembly, Reverse Engineering, Driver Development
 _Spiral Genetics_ - Seattle, WA
 <span style="float: right;">Computational Genetics</span><br>
 
+Implemented a highly parallelized and lock-free k-merization algorithm based on a bloom filter.
+Integrated BLAST into a genomics pipeline in order to filter out variant sequences 
+that appear in low-complexity reference regions.
+Designed and implemented a robust upload system for very large data files.
+Implemented a deployment system based on docker containers and integrated with 
+many cloud-based AWS services.
 
 **Network Software R&D**
 <span style="float: right;">2010 - 2013</span><br>
 _CoCo Communications Corp._ - Seattle, WA
 <span style="float: right;">Computer Networking</span><br>
 
-Linux kernel driver and embedded development utilizing OpenWRT. Helped bring TDD
-and Continuous Integration to the team. Migration of source control from
-subversion to git. Upgrade of build system from SCons to Waf.
+Implemented protocols and drivers targeted for the OpenWRT platform.
+Implemented the following RFCs:
+
+* RFC 3376: Internet Group Management Protocol, Version 3.
+* RFC 3973: Protocol Independent Multicast - Dense Mode (PIM-DM).
+* RFC 5740: NACK-Oriented Reliable Multicast (NORM) Transport Protocol.
+
 
 **Software Consultant**
 <span style="float: right;">2008 - 2010</span><br>
@@ -46,11 +56,9 @@ Implemented a variety of ASP.NET applications for large and small clients.
 _CoCo Communications Corp._ - Seattle, WA
 <span style="float: right;">Computer Networking</span><br>
 
-A lead designer of an ad-hoc mesh networking protocol written in C++. 
 Designed and implemented an accurate network simulator for research, functional testing, and demos.
-Co-authorship of a patent for a clustering sub-protocol which allows the mesh to
-scale. Designed and implemented a cross-platform build system written in python
-using SCons. Designed and implemented a driver for WinNT, WinCE, and Linux. 
+Lead the design and implementation of an ad-hoc mesh networking protocol.
+Designed and implemented drivers for WinNT, WinCE, and Linux. 
 
 **Software Engineer**
 <span style="float: right;">2002 - 2003</span><br>
@@ -106,14 +114,6 @@ _Intel Corp._ - Hillsboro, OR
 <span style="float: right;">Computer Hardware</span><br>
 
 Implemented a Direct X testing platform to evaluate onboard audio and video components. 
-
-## Patents
-
-Protocol circuit layer. U.S. Patent 8,665,710, Mar 4, 2014.
-
-Protocol link layer. U.S. Patent 8,248,964, Aug 21, 2012.
-
-Network clustering. U.S. Patent 8,233,480, Jul 31, 2012.
 
 ## Education
 
